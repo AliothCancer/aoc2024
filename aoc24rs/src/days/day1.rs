@@ -3,10 +3,10 @@ use std::time::Instant;
 
 pub fn run() {
     let i = Instant::now();
-    part1();
-    let duration = i.elapsed();
-    println!("elapsed time: {} s", duration.as_nanos() as f64 /1_000_000_000.0);
     part2();
+    let duration = i.elapsed();
+    println!("{} seconds", duration.as_nanos() as f64 /1_000_000_000.0);
+    part1();
 }
 
 fn part1() {

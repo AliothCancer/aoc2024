@@ -75,11 +75,10 @@ function part2()
 
     tot_id = 0
     for id in col_a
-        global tot_id
         times = count(x -> x == id, col_b)
         tot_id += id * times
     end
 end
 #println("Parte II: similarity score: $tot_id")
 
-@time part1()
+@time part2()
