@@ -1,0 +1,25 @@
+```
+####### RUST ########
+  0.000217 seconds
+  0.000284 seconds
+  0.000209 seconds
+  0.000218 seconds
+  0.000211 seconds
+  0.000213 seconds
+  0.000217 seconds
+  0.000214 seconds
+  0.000212 seconds
+  0.000215 seconds
+
+######## JULIA ########
+  0.000797 seconds (6.05 k allocations: 596.508 KiB)
+  0.000804 seconds (6.05 k allocations: 596.508 KiB)
+  0.000797 seconds (6.05 k allocations: 596.508 KiB)
+  0.000576 seconds (6.05 k allocations: 596.508 KiB)
+  0.000460 seconds (6.05 k allocations: 596.508 KiB)
+  0.000428 seconds (6.05 k allocations: 596.508 KiB)
+  0.000434 seconds (6.05 k allocations: 596.508 KiB)
+  0.000432 seconds (6.05 k allocations: 596.508 KiB)
+  0.000437 seconds (6.05 k allocations: 596.508 KiB)
+  0.000431 seconds (6.05 k allocations: 596.508 KiB)
+```
