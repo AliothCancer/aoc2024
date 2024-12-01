@@ -5,12 +5,24 @@ split_in_lines(input) =
     split(input, "\n", keepempty=false)
 
 parse_line(line) =
-    @pipe line |> split |> parse.(Int, _)
+    line |>
+    split .|>
+    parser |>
+    x -> !isnothing(x) ? x :
+         @warn "Impossibile parsare la line"
+
+parser(value) =
+    try
+        parse(Int, value)
+    catch e
+        @error "Errore durante il parsing:\n$e"
+        exit()
+    end
 
 to_matrix(parsed_lines) =
     reduce(hcat, parsed_lines)
 
-    
+
 input = read(
     "input/input_day1.txt",
     String
@@ -23,7 +35,7 @@ parsed_input =
     to_matrix
 
 (col_a, col_b) =
-    parsed_input[1, :], 
+    parsed_input[1, :],
     parsed_input[2, :]
 
 sort!(col_a)
@@ -40,3 +52,4 @@ total_distance =
 println(
     "total distance: $total_distance"
 )
+
