@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+itertools = "0.13.0"
+sliding_windows = "3.0.0"

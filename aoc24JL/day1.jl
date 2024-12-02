@@ -8,8 +8,7 @@ parse_line(line) =
     line |>
     split .|>
     parser |>
-    x -> !isnothing(x) ? x :
-         @warn "Impossibile parsare la line"
+    x
 
 parser(value) =
     try
