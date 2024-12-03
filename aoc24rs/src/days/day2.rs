@@ -40,14 +40,10 @@ fn part2() {
 
     let result = input
         .lines()
-        //.take(10)
-        //.inspect(|line| println!("line: \"{line}\""))
         .map(parse_line)
-        //.inspect(|x| println!("parsed to: {x:?}"))
         .map(generate_possible_reports)
-        .filter_map(any_safe_report)
-        //.inspect(|is_safe| println!("is safe: {}\n_________", is_safe))
-        //.filter(|x| *x)
+        .map(any_safe_report)
+        .filter(|x| *x)
         .count();
     println!("result part II: {}", result);
 }
@@ -55,11 +51,9 @@ fn part2() {
 type Number = i64;
 
 fn parse_line(line: &str) -> Vec<Number> {
-    line.split_whitespace().map(parse_line_values).collect()
-}
-
-fn parse_line_values(x: &str) -> Number {
-    x.parse::<Number>().unwrap()
+    line.split_whitespace()
+        .map(|x| x.parse::<Number>().unwrap())
+        .collect()
 }
 
 fn generate_possible_reports(
@@ -73,15 +67,8 @@ fn generate_possible_reports(
     report.into_iter().combinations(comb_len).chain([original])
 }
 
-fn any_safe_report<T: Iterator<Item = Vec<Number>>>(possible_reports: T) -> Option<()> {
-    match possible_reports
-        .map(get_increments)
-        //.inspect(|x| println!(" increments: {:?}", x))
-        .any(is_safe_report)
-    {
-        true => Some(()),
-        false => None,
-    }
+fn any_safe_report<T: Iterator<Item = Vec<Number>>>(possible_reports: T) -> bool {
+    possible_reports.map(get_increments).any(is_safe_report)
 }
 
 fn get_increments(report: Vec<Number>) -> Vec<Number> {
@@ -96,11 +83,12 @@ fn get_increments(report: Vec<Number>) -> Vec<Number> {
 }
 
 fn is_safe_report(report: Vec<Number>) -> bool {
-    let iter = report.iter();
-    let max_abs = iter.clone().max_by(|x, y| x.abs().cmp(&y.abs())).unwrap();
-    //println!("max: {}",max_abs);
-    let is_growing = iter.clone().all(|x| x.signum().is_positive());
-    let is_decreasing = iter.into_iter().all(|x| x.signum().is_negative());
-
-    matches!(max_abs.abs(), 1..=3 if is_growing || is_decreasing)
+    let is_growing = report.iter().all(|x| x.signum().is_positive());
+    let is_decreasing = report.iter().all(|x| x.signum().is_negative());
+    
+    if is_growing{
+        (1..=3).contains(report.iter().max().unwrap())
+    } else if is_decreasing{
+        (-3..=-1).contains(report.iter().min().unwrap())
+    } else { false }
 }
