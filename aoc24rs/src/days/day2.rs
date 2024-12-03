@@ -59,8 +59,8 @@ fn parse_line(line: &str) -> Vec<Number> {
 fn generate_possible_reports(
     report: Vec<Number>,
 ) -> std::iter::Chain<
-    itertools::Combinations<std::vec::IntoIter<i64>>,
-    std::array::IntoIter<std::vec::Vec<i64>, 1>,
+    itertools::Combinations<std::vec::IntoIter<Number>>,
+    std::array::IntoIter<std::vec::Vec<Number>, 1>,
 > {
     let comb_len = report.len() - 1;
     let original = report.clone();
