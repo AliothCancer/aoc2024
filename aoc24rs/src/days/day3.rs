@@ -2,10 +2,19 @@
 
 use itertools::Itertools;
 use sliding_windows::{IterExt, Storage};
-use std::{time::Instant, vec};
+use std::{collections::HashMap, time::Instant, vec};
 
 use crate::days::get_input;
 
+fn count_frequencies(vec: Vec<u64>) -> HashMap<u64, usize> {
+    let mut frequency_map = HashMap::new();
+
+    for &num in &vec {
+        *frequency_map.entry(num).or_insert(0) += 1;
+    }
+
+    frequency_map
+}
 pub fn run() {
     let i = Instant::now();
     part1();
@@ -19,20 +28,28 @@ pub fn run() {
 }
 
 const INPUT_PATH: &str = "../input/input_day3.txt";
-const TEST_INPUT: &str = "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))";
+const TEST_INPUT: &str =
+    "xmul(2,4)%mul((34,))&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))";
 fn part1() {
+    let test1 = "mmmul(1,1)mmul(2,2)mulmul(3mul(2,3)    mul(3,3)mul(4,4)";
     let input = get_input(INPUT_PATH);
-    let mut tokens = TEST_INPUT.chars().map(Token::to_token).peekable();
-    println!("{}",TEST_INPUT);
-    //let mut tokens = input.chars().map(Token::to_token).peekable();
-
-    let mut total_mul = 0;
-    while let Some(token) = tokens.find(|x| x == &Token::M) {
+    let mut tokens = input.chars().map(Token::to_token).peekable();
+    println!("{}", test1);
+    let mut total_mul_add = 0;
+    let mut mul_found = 0;
+    while let Some(token) = tokens.find(|x|x == &Token::M) {
         //dbg!(token);
+        while tokens.peek() == Some(&Token::M){
+            tokens.next();
+        };
         let mut first_number = String::new();
         let mut second_number = String::new();
 
-        match (tokens.next(), tokens.next(), tokens.next()) {
+        match (
+            tokens.next_if(|x|x == &Token::U),
+            tokens.next_if(|x|x == &Token::L),
+            tokens.next_if(|x|x == &Token::LeftPar),
+        ) {
             (Some(Token::U), Some(Token::L), Some(Token::LeftPar)) => {
                 // Raccogli il primo numero
                 while matches!(tokens.peek(), Some(Token::Digit(k))) {
@@ -40,6 +57,7 @@ fn part1() {
                         if first_number.len() < 3 {
                             first_number.push(dig);
                         } else {
+                            println!("dig dropped: {dig}");
                             break;
                         }
                     }
@@ -55,6 +73,7 @@ fn part1() {
                             if second_number.len() < 3 {
                                 second_number.push(dig);
                             } else {
+                                println!("dig dropped: {dig}");
                                 break;
                             }
                         }
@@ -64,15 +83,17 @@ fn part1() {
                     if matches!(tokens.next(), Some(Token::RightPar)) {
                         let n1 = first_number.parse::<u64>().unwrap();
                         let n2 = second_number.parse::<u64>().unwrap();
-                        println!("Found mul({}, {})", first_number, second_number);
-                        total_mul += n1 * n2;
+                        println!("mul({},{})", first_number, second_number);
+                        total_mul_add += n1 * n2;
+                        mul_found += 1;
                     }
                 }
-            }
+            },
             _ => continue, // Salta pattern non validi
         }
     }
-    println!("total: {}", total_mul);
+    println!("total: {}\ncase found: {}", total_mul_add, mul_found);
+
 }
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
@@ -84,6 +105,7 @@ enum Token {
     LeftPar,
     Comma,
     RightPar,
+    Space,
     Ignore,
 }
 
@@ -96,6 +118,7 @@ impl Token {
             '(' => Token::LeftPar,
             ',' => Token::Comma,
             ')' => Token::RightPar,
+            ' ' => Token::Space,
             ch if ch.is_numeric() => Token::Digit(ch),
             _ => Token::Ignore,
         }
