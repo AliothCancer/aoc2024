@@ -1,4 +1,4 @@
-#![allow(unused, clippy::diverging_sub_expression, clippy::let_unit_value)]
+//#![allow(unused, clippy::diverging_sub_expression, clippy::let_unit_value)]
 
 use itertools::Itertools;
 use sliding_windows::{IterExt, Storage};
@@ -19,14 +19,13 @@ pub fn run() {
 }
 
 const INPUT_PATH: &str = "../input/input_day3.txt";
-const TEST_INPUT: &str = "mul ( 34, 1)mul (34, 1 )xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))";
+const TEST_INPUT: &str = "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))";
 fn part1() {
     let input = get_input(INPUT_PATH);
-    //let mut tokens = TEST_INPUT.chars().map(Token::to_token).peekable();
-    let mut tokens = input.chars().map(Token::to_token).peekable();
-    let token_copy = tokens.clone().collect_vec();
+    let mut tokens = TEST_INPUT.chars().map(Token::to_token).peekable();
+    println!("{}",TEST_INPUT);
+    //let mut tokens = input.chars().map(Token::to_token).peekable();
 
-    //println!("{:?}", token_copy);
     let mut total_mul = 0;
     while let Some(token) = tokens.find(|x| x == &Token::M) {
         //dbg!(token);
