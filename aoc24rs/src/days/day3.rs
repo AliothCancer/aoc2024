@@ -134,22 +134,9 @@ impl Token {
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
-enum MulToken {
-    Mul,
-    LeftPar,
-    FirstNumber(u64),
-    SecondNumber(u64),
-    RightPar,
-}
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
-enum MulState {
-    Do,
-    Dont,
-}
-
 fn part2() {
-    let test1 = "do()xmul(2,4)&mul[3,7]!^don't()_mmul(5567,5)+mulmul(32,64](mul(11,8)undo()?mul(8,5))";
+    let test1 =
+        "do()xmul(2,4)&mul[3,7]!^don't()_mmul(5567,5)+mulmul(32,64](mul(11,8)undo()?mul(8,5))";
     let input = get_input(INPUT_PATH);
     let mut tokens = input.chars().map(Token::to_token).peekable();
     //println!("{}", test1);
@@ -159,7 +146,6 @@ fn part2() {
     let mut mul_executed = 0;
     let mut mul_enabled = true;
     while let Some(token) = tokens.find(|x| x == &Token::M || x == &Token::D) {
-    
         while tokens.peek() == Some(&Token::M) {
             tokens.next();
         }
@@ -173,24 +159,26 @@ fn part2() {
                     Some(Token::RightPar) => {
                         mul_enabled = true;
                         //println!("found match 'do()' mul enabled");
-                    },
-                    _ => continue
+                    }
+                    _ => continue,
                 },
-                Some(Token::N) => if let (
+                Some(Token::N) => {
+                    if let (
                         Some(Token::Apos),
                         Some(Token::T),
                         Some(Token::LeftPar),
                         Some(Token::RightPar),
                     ) = (
-                    tokens.next_if_eq(&Token::Apos),
-                    tokens.next_if_eq(&Token::T),
-                    tokens.next_if_eq(&Token::LeftPar),
-                    tokens.next_if_eq(&Token::RightPar)
-                ) {
-                    mul_enabled = false;
-                    //println!("found match 'don't()' mul disabled");
-                },
-                
+                        tokens.next_if_eq(&Token::Apos),
+                        tokens.next_if_eq(&Token::T),
+                        tokens.next_if_eq(&Token::LeftPar),
+                        tokens.next_if_eq(&Token::RightPar),
+                    ) {
+                        mul_enabled = false;
+                        //println!("found match 'don't()' mul disabled");
+                    }
+                }
+
                 _ => (),
             }
         }
@@ -248,5 +236,8 @@ fn part2() {
             _ => continue, // Salta pattern non validi
         }
     }
-    println!("\n\nPART II\ntotal: {}\nmul found: {}\nmul executed: {}", total_mul_add, mul_found, mul_executed);
+    println!(
+        "\n\nPART II\ntotal: {}\nmul found: {}\nmul executed: {}",
+        total_mul_add, mul_found, mul_executed
+    );
 }
