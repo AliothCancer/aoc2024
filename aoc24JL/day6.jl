@@ -10,13 +10,13 @@ using Base.Enums;
 end
 
 mutable struct Position
-    x::Int
-    y::Int
+    col::Int
+    row::Int
     direction::Direction
 end
 
 function get_position(coor::Position)::Tuple
-    return (coor.x, coor.y)
+    return (coor.row, coor.col)
 end
 
 function change_direction!(coor::Position)
@@ -39,35 +39,35 @@ end
 
 function move!(coor::Position)
     if coor.direction == Up::Direction
-        coor.y -= 1
+        coor.row -= 1
     elseif coor.direction == Down::Direction
-        coor.y += 1
+        coor.row += 1
     elseif coor.direction == Left::Direction
-        coor.x -= 1
+        coor.col -= 1
     elseif coor.direction == Right::Direction
-        coor.x += 1
+        coor.col += 1
     end
 end
 
 function meet_obstacle(coor::Position)::Bool
     global parsed_input
     if coor.direction == Up::Direction
-        if coor.y > 4
-            println(parsed_input[coor.y-4:coor.y, coor.x])
-        end
-        return parsed_input[coor.y - 1, coor.x] == '#'
+        #if coor.x < 126
+        #    println(parsed_input[coor.x-4:coor.x, coor.y])
+        #end
+        return parsed_input[coor.row - 1][coor.col] == '#'
         
     elseif coor.direction == Down::Direction
-        return parsed_input[coor.y + 1, coor.x] == '#'
+        return parsed_input[coor.row + 1][coor.col] == '#'
         
     elseif coor.direction == Left::Direction
-        return parsed_input[coor.y, coor.x - 1] == '#'
+        return parsed_input[coor.row][coor.col - 1] == '#'
         
     elseif coor.direction == Right::Direction
-        if coor.x < 126
-            println(parsed_input[coor.y, coor.x:coor.x+4])
-        end
-        return parsed_input[coor.y, coor.x + 1] == '#'
+        #if coor.y > 4
+        #    println(parsed_input[coor.x, coor.y:coor.y+4])
+        #end
+        return parsed_input[coor.row][coor.col + 1] == '#'
 
     else
         @error "No direction matched: Not able to establish obstacles correctly"
@@ -78,10 +78,10 @@ end
 function find_guard(parsed_input, orientation::Char='^')::Tuple
     global parsed_input
     guard_position = nothing
-    for (x, col) in enumerate(eachcol(parsed_input))
-        y = findall(orientation, col |> String)
-        if !isempty(y)
-            guard_position = y[1], x
+    for (n_row, row) in enumerate(parsed_input)
+        n_col = findall(orientation, row |> String)
+        if !isempty(n_col)
+            guard_position = n_col[1],n_row
         end
     end
     if isnothing(guard_position)
@@ -97,40 +97,43 @@ function part1()
     global parsed_input
     input = readlines("input/input_day6.txt")
 
-    parsed_input = reduce(
-        hcat,
-        map(collect, input)
-    )
+    parsed_input = input .|> collect
 
-    (y_len, x_len) = size(parsed_input)
+    (row_len, col_len) = length(parsed_input),length(parsed_input[1]) 
     
     (
-        guard_position_y,
-        guard_position_x
+        guard_position_col,
+        guard_position_row
     ) = find_guard(parsed_input)
 
+
     guard = Position(
-        guard_position_x,
-        guard_position_y,
+        guard_position_col,
+        guard_position_row,
         Up::Direction
     )
-
+    println("verifica: $(parsed_input[guard_position_row][guard_position_col]) == ^")
+    
     unique_positions = Set{Tuple}()
     
+    counter = 0
     while true
         guard_position = guard |> get_position
         println("guard_position: $guard_position direction: $(guard.direction)")
-        if !(guard.x > 2 && guard.x < x_len) || !(guard.y > 2 && guard.y < y_len-1)
+        if !(guard.col > 2 && guard.col < col_len) || !(guard.row > 2 && guard.row < col_len-1)
             push!(unique_positions, guard_position)
             break
         else
             if guard |> meet_obstacle
                 guard |> change_direction!
+                counter = 0
             else
-                println("added position: $guard_position")
+                #println("added position: $guard_position")
                 push!(unique_positions, guard_position)
 
                 guard |> move!
+                counter += 1
+                println("same direction moves $counter")
             end
         end
     end

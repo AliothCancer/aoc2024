@@ -1,0 +1,606 @@
+guard position: (40, 50)
+guard_position: (50, 40) direction: Up
+['.', '.', '.', '.', '^']
+added position: (50, 40)
+guard_position: (50, 39) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 39)
+guard_position: (50, 38) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 38)
+guard_position: (50, 37) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 37)
+guard_position: (50, 36) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 36)
+guard_position: (50, 35) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 35)
+guard_position: (50, 34) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 34)
+guard_position: (50, 33) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 33)
+guard_position: (50, 32) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 32)
+guard_position: (50, 31) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 31)
+guard_position: (50, 30) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 30)
+guard_position: (50, 29) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 29)
+guard_position: (50, 28) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 28)
+guard_position: (50, 27) direction: Up
+['.', '.', '.', '.', '.']
+added position: (50, 27)
+guard_position: (50, 26) direction: Up
+['#', '.', '.', '.', '.']
+added position: (50, 26)
+guard_position: (50, 25) direction: Up
+['.', '#', '.', '.', '.']
+added position: (50, 25)
+guard_position: (50, 24) direction: Up
+['.', '.', '#', '.', '.']
+added position: (50, 24)
+guard_position: (50, 23) direction: Up
+['.', '.', '.', '#', '.']
+guard_position: (50, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (50, 23)
+guard_position: (51, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (51, 23)
+guard_position: (52, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (52, 23)
+guard_position: (53, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (53, 23)
+guard_position: (54, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (54, 23)
+guard_position: (55, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (55, 23)
+guard_position: (56, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (56, 23)
+guard_position: (57, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (57, 23)
+guard_position: (58, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (58, 23)
+guard_position: (59, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (59, 23)
+guard_position: (60, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (60, 23)
+guard_position: (61, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (61, 23)
+guard_position: (62, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (62, 23)
+guard_position: (63, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (63, 23)
+guard_position: (64, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (64, 23)
+guard_position: (65, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (65, 23)
+guard_position: (66, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (66, 23)
+guard_position: (67, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (67, 23)
+guard_position: (68, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (68, 23)
+guard_position: (69, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (69, 23)
+guard_position: (70, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (70, 23)
+guard_position: (71, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (71, 23)
+guard_position: (72, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (72, 23)
+guard_position: (73, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (73, 23)
+guard_position: (74, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (74, 23)
+guard_position: (75, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (75, 23)
+guard_position: (76, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (76, 23)
+guard_position: (77, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (77, 23)
+guard_position: (78, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (78, 23)
+guard_position: (79, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (79, 23)
+guard_position: (80, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (80, 23)
+guard_position: (81, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (81, 23)
+guard_position: (82, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (82, 23)
+guard_position: (83, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (83, 23)
+guard_position: (84, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (84, 23)
+guard_position: (85, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (85, 23)
+guard_position: (86, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (86, 23)
+guard_position: (87, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (87, 23)
+guard_position: (88, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (88, 23)
+guard_position: (89, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (89, 23)
+guard_position: (90, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (90, 23)
+guard_position: (91, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (91, 23)
+guard_position: (92, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (92, 23)
+guard_position: (93, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (93, 23)
+guard_position: (94, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (94, 23)
+guard_position: (95, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (95, 23)
+guard_position: (96, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (96, 23)
+guard_position: (97, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (97, 23)
+guard_position: (98, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (98, 23)
+guard_position: (99, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (99, 23)
+guard_position: (100, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (100, 23)
+guard_position: (101, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (101, 23)
+guard_position: (102, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (102, 23)
+guard_position: (103, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (103, 23)
+guard_position: (104, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (104, 23)
+guard_position: (105, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (105, 23)
+guard_position: (106, 23) direction: Right
+['.', '.', '.', '.', '.']
+added position: (106, 23)
+guard_position: (107, 23) direction: Right
+['.', '.', '.', '.', '#']
+added position: (107, 23)
+guard_position: (108, 23) direction: Right
+['.', '.', '.', '#', '.']
+added position: (108, 23)
+guard_position: (109, 23) direction: Right
+['.', '.', '#', '.', '.']
+added position: (109, 23)
+guard_position: (110, 23) direction: Right
+['.', '#', '.', '.', '.']
+guard_position: (110, 23) direction: Down
+added position: (110, 23)
+guard_position: (110, 24) direction: Down
+added position: (110, 24)
+guard_position: (110, 25) direction: Down
+added position: (110, 25)
+guard_position: (110, 26) direction: Down
+added position: (110, 26)
+guard_position: (110, 27) direction: Down
+guard_position: (110, 27) direction: Left
+added position: (110, 27)
+guard_position: (109, 27) direction: Left
+added position: (109, 27)
+guard_position: (108, 27) direction: Left
+added position: (108, 27)
+guard_position: (107, 27) direction: Left
+added position: (107, 27)
+guard_position: (106, 27) direction: Left
+added position: (106, 27)
+guard_position: (105, 27) direction: Left
+added position: (105, 27)
+guard_position: (104, 27) direction: Left
+added position: (104, 27)
+guard_position: (103, 27) direction: Left
+added position: (103, 27)
+guard_position: (102, 27) direction: Left
+added position: (102, 27)
+guard_position: (101, 27) direction: Left
+added position: (101, 27)
+guard_position: (100, 27) direction: Left
+added position: (100, 27)
+guard_position: (99, 27) direction: Left
+added position: (99, 27)
+guard_position: (98, 27) direction: Left
+added position: (98, 27)
+guard_position: (97, 27) direction: Left
+added position: (97, 27)
+guard_position: (96, 27) direction: Left
+added position: (96, 27)
+guard_position: (95, 27) direction: Left
+added position: (95, 27)
+guard_position: (94, 27) direction: Left
+added position: (94, 27)
+guard_position: (93, 27) direction: Left
+added position: (93, 27)
+guard_position: (92, 27) direction: Left
+added position: (92, 27)
+guard_position: (91, 27) direction: Left
+added position: (91, 27)
+guard_position: (90, 27) direction: Left
+added position: (90, 27)
+guard_position: (89, 27) direction: Left
+added position: (89, 27)
+guard_position: (88, 27) direction: Left
+added position: (88, 27)
+guard_position: (87, 27) direction: Left
+added position: (87, 27)
+guard_position: (86, 27) direction: Left
+added position: (86, 27)
+guard_position: (85, 27) direction: Left
+added position: (85, 27)
+guard_position: (84, 27) direction: Left
+added position: (84, 27)
+guard_position: (83, 27) direction: Left
+added position: (83, 27)
+guard_position: (82, 27) direction: Left
+added position: (82, 27)
+guard_position: (81, 27) direction: Left
+added position: (81, 27)
+guard_position: (80, 27) direction: Left
+added position: (80, 27)
+guard_position: (79, 27) direction: Left
+added position: (79, 27)
+guard_position: (78, 27) direction: Left
+added position: (78, 27)
+guard_position: (77, 27) direction: Left
+added position: (77, 27)
+guard_position: (76, 27) direction: Left
+added position: (76, 27)
+guard_position: (75, 27) direction: Left
+added position: (75, 27)
+guard_position: (74, 27) direction: Left
+added position: (74, 27)
+guard_position: (73, 27) direction: Left
+added position: (73, 27)
+guard_position: (72, 27) direction: Left
+added position: (72, 27)
+guard_position: (71, 27) direction: Left
+added position: (71, 27)
+guard_position: (70, 27) direction: Left
+added position: (70, 27)
+guard_position: (69, 27) direction: Left
+added position: (69, 27)
+guard_position: (68, 27) direction: Left
+added position: (68, 27)
+guard_position: (67, 27) direction: Left
+added position: (67, 27)
+guard_position: (66, 27) direction: Left
+added position: (66, 27)
+guard_position: (65, 27) direction: Left
+added position: (65, 27)
+guard_position: (64, 27) direction: Left
+added position: (64, 27)
+guard_position: (63, 27) direction: Left
+added position: (63, 27)
+guard_position: (62, 27) direction: Left
+added position: (62, 27)
+guard_position: (61, 27) direction: Left
+added position: (61, 27)
+guard_position: (60, 27) direction: Left
+added position: (60, 27)
+guard_position: (59, 27) direction: Left
+added position: (59, 27)
+guard_position: (58, 27) direction: Left
+added position: (58, 27)
+guard_position: (57, 27) direction: Left
+added position: (57, 27)
+guard_position: (56, 27) direction: Left
+added position: (56, 27)
+guard_position: (55, 27) direction: Left
+added position: (55, 27)
+guard_position: (54, 27) direction: Left
+added position: (54, 27)
+guard_position: (53, 27) direction: Left
+added position: (53, 27)
+guard_position: (52, 27) direction: Left
+added position: (52, 27)
+guard_position: (51, 27) direction: Left
+added position: (51, 27)
+guard_position: (50, 27) direction: Left
+added position: (50, 27)
+guard_position: (49, 27) direction: Left
+added position: (49, 27)
+guard_position: (48, 27) direction: Left
+added position: (48, 27)
+guard_position: (47, 27) direction: Left
+added position: (47, 27)
+guard_position: (46, 27) direction: Left
+added position: (46, 27)
+guard_position: (45, 27) direction: Left
+added position: (45, 27)
+guard_position: (44, 27) direction: Left
+added position: (44, 27)
+guard_position: (43, 27) direction: Left
+added position: (43, 27)
+guard_position: (42, 27) direction: Left
+added position: (42, 27)
+guard_position: (41, 27) direction: Left
+added position: (41, 27)
+guard_position: (40, 27) direction: Left
+added position: (40, 27)
+guard_position: (39, 27) direction: Left
+added position: (39, 27)
+guard_position: (38, 27) direction: Left
+added position: (38, 27)
+guard_position: (37, 27) direction: Left
+added position: (37, 27)
+guard_position: (36, 27) direction: Left
+guard_position: (36, 27) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 27)
+guard_position: (36, 26) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 26)
+guard_position: (36, 25) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 25)
+guard_position: (36, 24) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 24)
+guard_position: (36, 23) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 23)
+guard_position: (36, 22) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 22)
+guard_position: (36, 21) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 21)
+guard_position: (36, 20) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 20)
+guard_position: (36, 19) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 19)
+guard_position: (36, 18) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 18)
+guard_position: (36, 17) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 17)
+guard_position: (36, 16) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 16)
+guard_position: (36, 15) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 15)
+guard_position: (36, 14) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 14)
+guard_position: (36, 13) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 13)
+guard_position: (36, 12) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 12)
+guard_position: (36, 11) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 11)
+guard_position: (36, 10) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 10)
+guard_position: (36, 9) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 9)
+guard_position: (36, 8) direction: Up
+['.', '.', '.', '.', '.']
+added position: (36, 8)
+guard_position: (36, 7) direction: Up
+['#', '.', '.', '.', '.']
+added position: (36, 7)
+guard_position: (36, 6) direction: Up
+['.', '#', '.', '.', '.']
+added position: (36, 6)
+guard_position: (36, 5) direction: Up
+['.', '.', '#', '.', '.']
+added position: (36, 5)
+guard_position: (36, 4) direction: Up
+guard_position: (36, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (36, 4)
+guard_position: (37, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (37, 4)
+guard_position: (38, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (38, 4)
+guard_position: (39, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (39, 4)
+guard_position: (40, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (40, 4)
+guard_position: (41, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (41, 4)
+guard_position: (42, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (42, 4)
+guard_position: (43, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (43, 4)
+guard_position: (44, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (44, 4)
+guard_position: (45, 4) direction: Right
+['.', '.', '.', '.', '.']
+added position: (45, 4)
+guard_position: (46, 4) direction: Right
+['.', '.', '.', '.', '#']
+added position: (46, 4)
+guard_position: (47, 4) direction: Right
+['.', '.', '.', '#', '.']
+added position: (47, 4)
+guard_position: (48, 4) direction: Right
+['.', '.', '#', '.', '.']
+added position: (48, 4)
+guard_position: (49, 4) direction: Right
+['.', '#', '.', '.', '.']
+guard_position: (49, 4) direction: Down
+added position: (49, 4)
+guard_position: (49, 5) direction: Down
+added position: (49, 5)
+guard_position: (49, 6) direction: Down
+added position: (49, 6)
+guard_position: (49, 7) direction: Down
+guard_position: (49, 7) direction: Left
+added position: (49, 7)
+guard_position: (48, 7) direction: Left
+added position: (48, 7)
+guard_position: (47, 7) direction: Left
+added position: (47, 7)
+guard_position: (46, 7) direction: Left
+added position: (46, 7)
+guard_position: (45, 7) direction: Left
+added position: (45, 7)
+guard_position: (44, 7) direction: Left
+added position: (44, 7)
+guard_position: (43, 7) direction: Left
+added position: (43, 7)
+guard_position: (42, 7) direction: Left
+added position: (42, 7)
+guard_position: (41, 7) direction: Left
+added position: (41, 7)
+guard_position: (40, 7) direction: Left
+added position: (40, 7)
+guard_position: (39, 7) direction: Left
+added position: (39, 7)
+guard_position: (38, 7) direction: Left
+added position: (38, 7)
+guard_position: (37, 7) direction: Left
+added position: (37, 7)
+guard_position: (36, 7) direction: Left
+added position: (36, 7)
+guard_position: (35, 7) direction: Left
+added position: (35, 7)
+guard_position: (34, 7) direction: Left
+added position: (34, 7)
+guard_position: (33, 7) direction: Left
+added position: (33, 7)
+guard_position: (32, 7) direction: Left
+added position: (32, 7)
+guard_position: (31, 7) direction: Left
+added position: (31, 7)
+guard_position: (30, 7) direction: Left
+added position: (30, 7)
+guard_position: (29, 7) direction: Left
+added position: (29, 7)
+guard_position: (28, 7) direction: Left
+added position: (28, 7)
+guard_position: (27, 7) direction: Left
+added position: (27, 7)
+guard_position: (26, 7) direction: Left
+added position: (26, 7)
+guard_position: (25, 7) direction: Left
+added position: (25, 7)
+guard_position: (24, 7) direction: Left
+added position: (24, 7)
+guard_position: (23, 7) direction: Left
+added position: (23, 7)
+guard_position: (22, 7) direction: Left
+added position: (22, 7)
+guard_position: (21, 7) direction: Left
+added position: (21, 7)
+guard_position: (20, 7) direction: Left
+added position: (20, 7)
+guard_position: (19, 7) direction: Left
+added position: (19, 7)
+guard_position: (18, 7) direction: Left
+added position: (18, 7)
+guard_position: (17, 7) direction: Left
+added position: (17, 7)
+guard_position: (16, 7) direction: Left
+added position: (16, 7)
+guard_position: (15, 7) direction: Left
+added position: (15, 7)
+guard_position: (14, 7) direction: Left
+added position: (14, 7)
+guard_position: (13, 7) direction: Left
+added position: (13, 7)
+guard_position: (12, 7) direction: Left
+added position: (12, 7)
+guard_position: (11, 7) direction: Left
+added position: (11, 7)
+guard_position: (10, 7) direction: Left
+guard_position: (10, 7) direction: Up
+['.', '.', '.', '.', '.']
+added position: (10, 7)
+guard_position: (10, 6) direction: Up
+['.', '.', '.', '.', '.']
+added position: (10, 6)
+guard_position: (10, 5) direction: Up
+['.', '.', '.', '.', '.']
+added position: (10, 5)
+guard_position: (10, 4) direction: Up
+added position: (10, 4)
+guard_position: (10, 3) direction: Up
+added position: (10, 3)
+guard_position: (10, 2) direction: Up
+unique positions: 237

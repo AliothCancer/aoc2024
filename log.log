@@ -1,0 +1,555 @@
+guard position: (40, 50)
+verifica: ^ == ^
+verifica: ['.', '.', '.', '#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '^'] == ^
+guard_position: (40, 50) direction: Up
+same direction moves 1
+guard_position: (39, 50) direction: Up
+same direction moves 2
+guard_position: (38, 50) direction: Up
+same direction moves 3
+guard_position: (37, 50) direction: Up
+same direction moves 4
+guard_position: (36, 50) direction: Up
+same direction moves 5
+guard_position: (35, 50) direction: Up
+same direction moves 6
+guard_position: (34, 50) direction: Up
+same direction moves 7
+guard_position: (33, 50) direction: Up
+same direction moves 8
+guard_position: (32, 50) direction: Up
+same direction moves 9
+guard_position: (31, 50) direction: Up
+same direction moves 10
+guard_position: (30, 50) direction: Up
+same direction moves 11
+guard_position: (29, 50) direction: Up
+same direction moves 12
+guard_position: (28, 50) direction: Up
+same direction moves 13
+guard_position: (27, 50) direction: Up
+same direction moves 14
+guard_position: (26, 50) direction: Up
+same direction moves 15
+guard_position: (25, 50) direction: Up
+same direction moves 16
+guard_position: (24, 50) direction: Up
+same direction moves 17
+guard_position: (23, 50) direction: Up
+same direction moves 18
+guard_position: (22, 50) direction: Up
+same direction moves 19
+guard_position: (21, 50) direction: Up
+same direction moves 20
+guard_position: (20, 50) direction: Up
+same direction moves 21
+guard_position: (19, 50) direction: Up
+same direction moves 22
+guard_position: (18, 50) direction: Up
+same direction moves 23
+guard_position: (17, 50) direction: Up
+same direction moves 24
+guard_position: (16, 50) direction: Up
+guard_position: (16, 50) direction: Right
+same direction moves 1
+guard_position: (16, 51) direction: Right
+same direction moves 2
+guard_position: (16, 52) direction: Right
+same direction moves 3
+guard_position: (16, 53) direction: Right
+same direction moves 4
+guard_position: (16, 54) direction: Right
+same direction moves 5
+guard_position: (16, 55) direction: Right
+same direction moves 6
+guard_position: (16, 56) direction: Right
+same direction moves 7
+guard_position: (16, 57) direction: Right
+same direction moves 8
+guard_position: (16, 58) direction: Right
+same direction moves 9
+guard_position: (16, 59) direction: Right
+same direction moves 10
+guard_position: (16, 60) direction: Right
+same direction moves 11
+guard_position: (16, 61) direction: Right
+same direction moves 12
+guard_position: (16, 62) direction: Right
+same direction moves 13
+guard_position: (16, 63) direction: Right
+same direction moves 14
+guard_position: (16, 64) direction: Right
+same direction moves 15
+guard_position: (16, 65) direction: Right
+same direction moves 16
+guard_position: (16, 66) direction: Right
+same direction moves 17
+guard_position: (16, 67) direction: Right
+guard_position: (16, 67) direction: Down
+same direction moves 1
+guard_position: (17, 67) direction: Down
+same direction moves 2
+guard_position: (18, 67) direction: Down
+same direction moves 3
+guard_position: (19, 67) direction: Down
+same direction moves 4
+guard_position: (20, 67) direction: Down
+same direction moves 5
+guard_position: (21, 67) direction: Down
+same direction moves 6
+guard_position: (22, 67) direction: Down
+same direction moves 7
+guard_position: (23, 67) direction: Down
+same direction moves 8
+guard_position: (24, 67) direction: Down
+same direction moves 9
+guard_position: (25, 67) direction: Down
+same direction moves 10
+guard_position: (26, 67) direction: Down
+same direction moves 11
+guard_position: (27, 67) direction: Down
+same direction moves 12
+guard_position: (28, 67) direction: Down
+same direction moves 13
+guard_position: (29, 67) direction: Down
+same direction moves 14
+guard_position: (30, 67) direction: Down
+same direction moves 15
+guard_position: (31, 67) direction: Down
+same direction moves 16
+guard_position: (32, 67) direction: Down
+same direction moves 17
+guard_position: (33, 67) direction: Down
+same direction moves 18
+guard_position: (34, 67) direction: Down
+same direction moves 19
+guard_position: (35, 67) direction: Down
+same direction moves 20
+guard_position: (36, 67) direction: Down
+same direction moves 21
+guard_position: (37, 67) direction: Down
+same direction moves 22
+guard_position: (38, 67) direction: Down
+same direction moves 23
+guard_position: (39, 67) direction: Down
+same direction moves 24
+guard_position: (40, 67) direction: Down
+same direction moves 25
+guard_position: (41, 67) direction: Down
+same direction moves 26
+guard_position: (42, 67) direction: Down
+same direction moves 27
+guard_position: (43, 67) direction: Down
+same direction moves 28
+guard_position: (44, 67) direction: Down
+same direction moves 29
+guard_position: (45, 67) direction: Down
+same direction moves 30
+guard_position: (46, 67) direction: Down
+same direction moves 31
+guard_position: (47, 67) direction: Down
+same direction moves 32
+guard_position: (48, 67) direction: Down
+same direction moves 33
+guard_position: (49, 67) direction: Down
+same direction moves 34
+guard_position: (50, 67) direction: Down
+same direction moves 35
+guard_position: (51, 67) direction: Down
+same direction moves 36
+guard_position: (52, 67) direction: Down
+same direction moves 37
+guard_position: (53, 67) direction: Down
+same direction moves 38
+guard_position: (54, 67) direction: Down
+same direction moves 39
+guard_position: (55, 67) direction: Down
+same direction moves 40
+guard_position: (56, 67) direction: Down
+same direction moves 41
+guard_position: (57, 67) direction: Down
+same direction moves 42
+guard_position: (58, 67) direction: Down
+same direction moves 43
+guard_position: (59, 67) direction: Down
+same direction moves 44
+guard_position: (60, 67) direction: Down
+same direction moves 45
+guard_position: (61, 67) direction: Down
+same direction moves 46
+guard_position: (62, 67) direction: Down
+same direction moves 47
+guard_position: (63, 67) direction: Down
+same direction moves 48
+guard_position: (64, 67) direction: Down
+same direction moves 49
+guard_position: (65, 67) direction: Down
+same direction moves 50
+guard_position: (66, 67) direction: Down
+same direction moves 51
+guard_position: (67, 67) direction: Down
+same direction moves 52
+guard_position: (68, 67) direction: Down
+same direction moves 53
+guard_position: (69, 67) direction: Down
+same direction moves 54
+guard_position: (70, 67) direction: Down
+same direction moves 55
+guard_position: (71, 67) direction: Down
+same direction moves 56
+guard_position: (72, 67) direction: Down
+same direction moves 57
+guard_position: (73, 67) direction: Down
+same direction moves 58
+guard_position: (74, 67) direction: Down
+same direction moves 59
+guard_position: (75, 67) direction: Down
+same direction moves 60
+guard_position: (76, 67) direction: Down
+same direction moves 61
+guard_position: (77, 67) direction: Down
+same direction moves 62
+guard_position: (78, 67) direction: Down
+same direction moves 63
+guard_position: (79, 67) direction: Down
+same direction moves 64
+guard_position: (80, 67) direction: Down
+same direction moves 65
+guard_position: (81, 67) direction: Down
+same direction moves 66
+guard_position: (82, 67) direction: Down
+same direction moves 67
+guard_position: (83, 67) direction: Down
+same direction moves 68
+guard_position: (84, 67) direction: Down
+same direction moves 69
+guard_position: (85, 67) direction: Down
+guard_position: (85, 67) direction: Left
+same direction moves 1
+guard_position: (85, 66) direction: Left
+same direction moves 2
+guard_position: (85, 65) direction: Left
+same direction moves 3
+guard_position: (85, 64) direction: Left
+same direction moves 4
+guard_position: (85, 63) direction: Left
+same direction moves 5
+guard_position: (85, 62) direction: Left
+same direction moves 6
+guard_position: (85, 61) direction: Left
+same direction moves 7
+guard_position: (85, 60) direction: Left
+same direction moves 8
+guard_position: (85, 59) direction: Left
+same direction moves 9
+guard_position: (85, 58) direction: Left
+same direction moves 10
+guard_position: (85, 57) direction: Left
+same direction moves 11
+guard_position: (85, 56) direction: Left
+same direction moves 12
+guard_position: (85, 55) direction: Left
+same direction moves 13
+guard_position: (85, 54) direction: Left
+same direction moves 14
+guard_position: (85, 53) direction: Left
+guard_position: (85, 53) direction: Up
+same direction moves 1
+guard_position: (84, 53) direction: Up
+same direction moves 2
+guard_position: (83, 53) direction: Up
+same direction moves 3
+guard_position: (82, 53) direction: Up
+same direction moves 4
+guard_position: (81, 53) direction: Up
+guard_position: (81, 53) direction: Right
+same direction moves 1
+guard_position: (81, 54) direction: Right
+same direction moves 2
+guard_position: (81, 55) direction: Right
+same direction moves 3
+guard_position: (81, 56) direction: Right
+same direction moves 4
+guard_position: (81, 57) direction: Right
+same direction moves 5
+guard_position: (81, 58) direction: Right
+same direction moves 6
+guard_position: (81, 59) direction: Right
+same direction moves 7
+guard_position: (81, 60) direction: Right
+same direction moves 8
+guard_position: (81, 61) direction: Right
+same direction moves 9
+guard_position: (81, 62) direction: Right
+same direction moves 10
+guard_position: (81, 63) direction: Right
+same direction moves 11
+guard_position: (81, 64) direction: Right
+same direction moves 12
+guard_position: (81, 65) direction: Right
+same direction moves 13
+guard_position: (81, 66) direction: Right
+same direction moves 14
+guard_position: (81, 67) direction: Right
+same direction moves 15
+guard_position: (81, 68) direction: Right
+same direction moves 16
+guard_position: (81, 69) direction: Right
+same direction moves 17
+guard_position: (81, 70) direction: Right
+same direction moves 18
+guard_position: (81, 71) direction: Right
+same direction moves 19
+guard_position: (81, 72) direction: Right
+same direction moves 20
+guard_position: (81, 73) direction: Right
+same direction moves 21
+guard_position: (81, 74) direction: Right
+same direction moves 22
+guard_position: (81, 75) direction: Right
+same direction moves 23
+guard_position: (81, 76) direction: Right
+guard_position: (81, 76) direction: Down
+same direction moves 1
+guard_position: (82, 76) direction: Down
+same direction moves 2
+guard_position: (83, 76) direction: Down
+same direction moves 3
+guard_position: (84, 76) direction: Down
+same direction moves 4
+guard_position: (85, 76) direction: Down
+same direction moves 5
+guard_position: (86, 76) direction: Down
+same direction moves 6
+guard_position: (87, 76) direction: Down
+same direction moves 7
+guard_position: (88, 76) direction: Down
+same direction moves 8
+guard_position: (89, 76) direction: Down
+same direction moves 9
+guard_position: (90, 76) direction: Down
+same direction moves 10
+guard_position: (91, 76) direction: Down
+same direction moves 11
+guard_position: (92, 76) direction: Down
+same direction moves 12
+guard_position: (93, 76) direction: Down
+same direction moves 13
+guard_position: (94, 76) direction: Down
+same direction moves 14
+guard_position: (95, 76) direction: Down
+same direction moves 15
+guard_position: (96, 76) direction: Down
+same direction moves 16
+guard_position: (97, 76) direction: Down
+same direction moves 17
+guard_position: (98, 76) direction: Down
+same direction moves 18
+guard_position: (99, 76) direction: Down
+same direction moves 19
+guard_position: (100, 76) direction: Down
+same direction moves 20
+guard_position: (101, 76) direction: Down
+same direction moves 21
+guard_position: (102, 76) direction: Down
+same direction moves 22
+guard_position: (103, 76) direction: Down
+same direction moves 23
+guard_position: (104, 76) direction: Down
+same direction moves 24
+guard_position: (105, 76) direction: Down
+same direction moves 25
+guard_position: (106, 76) direction: Down
+same direction moves 26
+guard_position: (107, 76) direction: Down
+same direction moves 27
+guard_position: (108, 76) direction: Down
+same direction moves 28
+guard_position: (109, 76) direction: Down
+same direction moves 29
+guard_position: (110, 76) direction: Down
+same direction moves 30
+guard_position: (111, 76) direction: Down
+same direction moves 31
+guard_position: (112, 76) direction: Down
+same direction moves 32
+guard_position: (113, 76) direction: Down
+same direction moves 33
+guard_position: (114, 76) direction: Down
+same direction moves 34
+guard_position: (115, 76) direction: Down
+same direction moves 35
+guard_position: (116, 76) direction: Down
+same direction moves 36
+guard_position: (117, 76) direction: Down
+same direction moves 37
+guard_position: (118, 76) direction: Down
+same direction moves 38
+guard_position: (119, 76) direction: Down
+guard_position: (119, 76) direction: Left
+same direction moves 1
+guard_position: (119, 75) direction: Left
+same direction moves 2
+guard_position: (119, 74) direction: Left
+same direction moves 3
+guard_position: (119, 73) direction: Left
+same direction moves 4
+guard_position: (119, 72) direction: Left
+same direction moves 5
+guard_position: (119, 71) direction: Left
+same direction moves 6
+guard_position: (119, 70) direction: Left
+same direction moves 7
+guard_position: (119, 69) direction: Left
+same direction moves 8
+guard_position: (119, 68) direction: Left
+same direction moves 9
+guard_position: (119, 67) direction: Left
+same direction moves 10
+guard_position: (119, 66) direction: Left
+same direction moves 11
+guard_position: (119, 65) direction: Left
+same direction moves 12
+guard_position: (119, 64) direction: Left
+same direction moves 13
+guard_position: (119, 63) direction: Left
+same direction moves 14
+guard_position: (119, 62) direction: Left
+same direction moves 15
+guard_position: (119, 61) direction: Left
+same direction moves 16
+guard_position: (119, 60) direction: Left
+same direction moves 17
+guard_position: (119, 59) direction: Left
+same direction moves 18
+guard_position: (119, 58) direction: Left
+same direction moves 19
+guard_position: (119, 57) direction: Left
+same direction moves 20
+guard_position: (119, 56) direction: Left
+same direction moves 21
+guard_position: (119, 55) direction: Left
+same direction moves 22
+guard_position: (119, 54) direction: Left
+same direction moves 23
+guard_position: (119, 53) direction: Left
+same direction moves 24
+guard_position: (119, 52) direction: Left
+same direction moves 25
+guard_position: (119, 51) direction: Left
+same direction moves 26
+guard_position: (119, 50) direction: Left
+same direction moves 27
+guard_position: (119, 49) direction: Left
+same direction moves 28
+guard_position: (119, 48) direction: Left
+same direction moves 29
+guard_position: (119, 47) direction: Left
+same direction moves 30
+guard_position: (119, 46) direction: Left
+same direction moves 31
+guard_position: (119, 45) direction: Left
+same direction moves 32
+guard_position: (119, 44) direction: Left
+same direction moves 33
+guard_position: (119, 43) direction: Left
+same direction moves 34
+guard_position: (119, 42) direction: Left
+same direction moves 35
+guard_position: (119, 41) direction: Left
+same direction moves 36
+guard_position: (119, 40) direction: Left
+same direction moves 37
+guard_position: (119, 39) direction: Left
+same direction moves 38
+guard_position: (119, 38) direction: Left
+same direction moves 39
+guard_position: (119, 37) direction: Left
+same direction moves 40
+guard_position: (119, 36) direction: Left
+same direction moves 41
+guard_position: (119, 35) direction: Left
+same direction moves 42
+guard_position: (119, 34) direction: Left
+same direction moves 43
+guard_position: (119, 33) direction: Left
+same direction moves 44
+guard_position: (119, 32) direction: Left
+same direction moves 45
+guard_position: (119, 31) direction: Left
+same direction moves 46
+guard_position: (119, 30) direction: Left
+same direction moves 47
+guard_position: (119, 29) direction: Left
+same direction moves 48
+guard_position: (119, 28) direction: Left
+guard_position: (119, 28) direction: Up
+same direction moves 1
+guard_position: (118, 28) direction: Up
+same direction moves 2
+guard_position: (117, 28) direction: Up
+same direction moves 3
+guard_position: (116, 28) direction: Up
+same direction moves 4
+guard_position: (115, 28) direction: Up
+same direction moves 5
+guard_position: (114, 28) direction: Up
+same direction moves 6
+guard_position: (113, 28) direction: Up
+same direction moves 7
+guard_position: (112, 28) direction: Up
+same direction moves 8
+guard_position: (111, 28) direction: Up
+same direction moves 9
+guard_position: (110, 28) direction: Up
+guard_position: (110, 28) direction: Right
+same direction moves 1
+guard_position: (110, 29) direction: Right
+same direction moves 2
+guard_position: (110, 30) direction: Right
+same direction moves 3
+guard_position: (110, 31) direction: Right
+same direction moves 4
+guard_position: (110, 32) direction: Right
+same direction moves 5
+guard_position: (110, 33) direction: Right
+guard_position: (110, 33) direction: Down
+same direction moves 1
+guard_position: (111, 33) direction: Down
+same direction moves 2
+guard_position: (112, 33) direction: Down
+same direction moves 3
+guard_position: (113, 33) direction: Down
+same direction moves 4
+guard_position: (114, 33) direction: Down
+same direction moves 5
+guard_position: (115, 33) direction: Down
+same direction moves 6
+guard_position: (116, 33) direction: Down
+same direction moves 7
+guard_position: (117, 33) direction: Down
+same direction moves 8
+guard_position: (118, 33) direction: Down
+same direction moves 9
+guard_position: (119, 33) direction: Down
+same direction moves 10
+guard_position: (120, 33) direction: Down
+same direction moves 11
+guard_position: (121, 33) direction: Down
+same direction moves 12
+guard_position: (122, 33) direction: Down
+same direction moves 13
+guard_position: (123, 33) direction: Down
+same direction moves 14
+guard_position: (124, 33) direction: Down
+same direction moves 15
+guard_position: (125, 33) direction: Down
+same direction moves 16
+guard_position: (126, 33) direction: Down
+same direction moves 17
+guard_position: (127, 33) direction: Down
+same direction moves 18
+guard_position: (128, 33) direction: Down
+same direction moves 19
+guard_position: (129, 33) direction: Down
+unique positions: 269
